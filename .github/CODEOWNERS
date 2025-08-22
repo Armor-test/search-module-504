@@ -1,0 +1,41 @@
+# CODEOWNERS file for search-module-504
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/dept-reliability @Armor-test/team-frontend
+
+# Directory ownership
+/migrations/ @Armor-test/squad-cache @Armor-test/squad-cloud @Armor-test/unit-devops
+/helpers/ @Armor-test/dept-ui @Armor-test/team-logging @Armor-test/dept-identity
+/db/ @Armor-test/squad-cache @Armor-test/grp-integration @Armor-test/unit-devops
+/utils/ @Armor-test/team-frontend @Armor-test/squad-search
+/shared/ @Armor-test/squad-mobile @Armor-test/squad-payments @Armor-test/dept-automation
+/test/ @Armor-test/team-core @Armor-test/squad-cloud
+/auth/ @Armor-test/dept-logging @Armor-test/dept-reporting
+/extensions/ @Armor-test/dept-logging @Armor-test/grp-payments
+/plugins/ @Armor-test/dept-identity @Armor-test/squad-ml
+/spec/ @Armor-test/squad-search @Armor-test/grp-integration @Armor-test/squad-performance
+/src/ @Armor-test/squad-qa @Armor-test/dept-ui
+/dist/ @Armor-test/team-governance @Armor-test/squad-cloud @Armor-test/unit-design
+/styles/ @Armor-test/squad-apps @Armor-test/dept-identity
+/config/ @Armor-test/squad-mobile @Armor-test/dept-automation
+/deploy/ @Armor-test/squad-api @Armor-test/unit-devops
+
+# File type ownership
+*.toml @Armor-test/squad-api @Armor-test/dept-billing @Armor-test/squad-product
+*.tsx @Armor-test/squad-qa @Armor-test/squad-cloud
+*.html @Armor-test/team-governance @Armor-test/grp-api @Armor-test/squad-research
+*.c @Armor-test/dept-release @Armor-test/dept-logging
+*.java @Armor-test/dept-data @Armor-test/squad-tooling @Armor-test/grp-ui
+*.properties @Armor-test/squad-tooling @Armor-test/grp-integration
+*.json @Armor-test/team-logging @Armor-test/dept-logging
+*.proto @Armor-test/dept-api @Armor-test/squad-cache @Armor-test/grp-search
+*.cs @Armor-test/dept-api @Armor-test/dept-reporting
+*.ini @Armor-test/squad-payments @Armor-test/squad-mobile @Armor-test/squad-reporting
+*.md @Armor-test/dept-data @Armor-test/dept-automation @Armor-test/dept-identity
+*.h @Armor-test/grp-ui @Armor-test/dept-billing
+*.lock @Armor-test/squad-product @Armor-test/grp-ui @Armor-test/dept-release
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
